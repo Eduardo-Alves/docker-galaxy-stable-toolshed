@@ -1,4 +1,4 @@
-FROM wha/galaxy
+FROM bgruening/galaxy-stable
 
 MAINTAINER Cameron Smith
 
