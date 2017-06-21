@@ -1,5 +1,5 @@
 [program:toolshed]
-command         = /home/galaxy/venv/bin/python ./scripts/paster.py serve config/tool_shed.ini --pid-file=tool_shed_webapp.pid --log-file=/root/tool_shed_webapp.log
+command         = /galaxy_venv/bin/python ./scripts/paster.py serve config/tool_shed.ini --pid-file=tool_shed_webapp.pid --log-file=/home/galaxy/tool_shed_webapp.log
 directory       = /galaxy-central
 process_name    = toolshed
 umask           = 022

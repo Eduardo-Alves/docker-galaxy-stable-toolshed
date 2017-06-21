@@ -1,6 +1,6 @@
 import sys
 import argparse
-sys.path.append('/galaxy-central/lib/tool_shed/scripts/api/')
+sys.path.append('/galaxy-central/scripts/tool_shed/api/')
 from common import submit
 
 def main( options ):
